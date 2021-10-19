@@ -1,0 +1,303 @@
+-- ============================================================================
+-- Table: public.data_series_raw
+
+DROP TABLE public.data_series;
+
+CREATE TABLE public.data_series
+(
+    series_id character varying(10) COLLATE pg_catalog.default,
+    title character varying(200) COLLATE pg_catalog.default,
+	title_type character varying(200) COLLATE pg_catalog.default,
+	type_1 character varying(50) COLLATE pg_catalog.default,
+	type_2 character varying(50) COLLATE pg_catalog.default,
+	type_3 character varying(50) COLLATE pg_catalog.default,
+	type_4 character varying(50) COLLATE pg_catalog.default
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.data_series
+    OWNER to postgres;
+
+-- =========================================================================
+INSERT INTO public.data_series(
+	series_id, title)
+	
+SELECT series_id, title
+FROM public.data_series_raw
+WHERE	series_id is not null;
+
+-- =========================================================================
+UPDATE  public.data_series
+SET title_type = title;
+
+UPDATE  public.data_series
+SET title_type = SUBSTRING(title_type, position(';' in title_type)+2, length(title_type)),
+    type_1 = SUBSTRING(title_type, 1, position(';' in title_type)-1);
+
+UPDATE  public.data_series
+SET title_type = SUBSTRING(title_type, position(';' in title_type)+2, length(title_type)),
+    type_2 = SUBSTRING(title_type, 1, position(';' in title_type)-1);
+
+UPDATE  public.data_series
+SET title_type = SUBSTRING(title_type, position(';' in title_type)+2, length(title_type)),
+    type_3 = SUBSTRING(title_type, 1, position(';' in title_type)-1)
+WHERE series_id like ('FLRH%');
+
+UPDATE  public.data_series
+SET type_3 = title_type
+WHERE series_id like ('FLRP%');
+	
+UPDATE  public.data_series
+SET  type_4 = title_type
+WHERE series_id like ('FLRH%');
+
+UPDATE  public.data_series
+SET  title_type =  SUBSTRING(series_id, 4, 1);
+
+-- =========================================================================
+INSERT INTO public.population(
+	state_territory, population)
+
+SELECT state_territory, population * 1000
+FROM 	public.population_raw
+WHERE	state_territory <> 'Australia (a)'
+
+-- ============================================================================
+INSERT INTO public.au_locations(
+	city, lat, lon, st, capital)
+
+SELECT city, lat, lon, admin_name, capital
+	FROM public.au_locations_raw;
+
+-- ============================================================================
+-- DROP VIEW public.capital_population;
+
+create view capital_population
+as
+
+SELECT city, lat, lon, st, population, capital
+FROM public.au_locations
+
+JOIN public.au_population
+ON st = state_territory
+
+WHERE capital in ('admin','primary')
+
+-- ============================================================================
+INSERT INTO public.au_dwellings(
+	measure, residential_dwellings, region, dt_code, dt, val_short)
+
+SELECT 	measure, 
+		substring(residential_dwellings,1, position('(' in residential_dwellings)-2) as residential_dwellings, 
+		region, dt_code, to_date(mm_yy, 'Mon-YYYY') as dt, val
+FROM 	public.au_dwellings_raw
+
+WHERE	asgs_2011 <> 0
+AND		measure in (1,4,5);
+
+UPDATE public.au_dwellings
+SET val= val_short * 1000000
+WHERE measure = 1;
+
+UPDATE public.au_dwellings
+SET val= val_short * 1000
+WHERE measure in (4,5);
+
+
+-- ============================================================================
+TRUNCATE TABLE public.housing_loans;
+
+INSERT INTO public.housing_loans(
+		measure, loan_type, loan_purpose, housing_purpose, region, time_period, 
+		unit_of_multiplier, obs_value, act_value)
+
+SELECT 	substring(measure,position(':' in measure)+2, length(measure)) 										as measure, 
+		substring(loan_type,position(':' in loan_type)+2, length(loan_type)) 								as loan_type, 
+		substring(loan_purpose,position(':' in loan_purpose)+2, length(loan_purpose)) 						as loan_purpose, 
+		substring(housing_purpose,position(':' in housing_purpose)+2, length(housing_purpose)) 				as housing_purpose, 
+		substring(region,position(':' in region)+2, length(region)) 										as region, 
+		to_date(time_period, 'YYYY-MM') 																	as time_period, 
+		substring(unit_of_multiplier,position(':' in unit_of_multiplier)+2, length(unit_of_multiplier)) 	as unit_of_multiplier,
+		obs_value, 
+		obs_value
+		
+FROM 	public.housing_loans_raw
+WHERE	lender_type = 'TOT: Total lender type'
+AND		adjustment_type = '10: Original'
+AND		housing_purpose in ('DV5167: Owner occupier','DV5168: Investor')
+AND		loan_purpose in ('DV8353: Construction of dwellings','DV8546: Purchase of existing dwellings')
+AND		region <> 'AUS: Australia';
+
+
+UPDATE 	public.housing_loans
+SET		act_value = obs_value * 1000000
+WHERE	unit_of_multiplier = 'Millions';
+
+UPDATE 	public.housing_loans
+SET		qtr_date = to_date(EXTRACT(YEAR FROM time_period ) || '-' || EXTRACT(QUARTER FROM time_period )*3 || '-01', 'YYYY-MM-DD') ;
+
+-- ===============================================================================================================
+TRUNCATE TABLE public.personal_loans;
+
+INSERT INTO public.personal_loans(
+	measure, loan_type, loan_purpose, region, time_period, unit_of_multiplier, obs_value, act_value)
+
+SELECT 	substring(measure,position(':' in measure)+2, length(measure)) 										as measure, 
+		substring(loan_type,position(':' in loan_type)+2, length(loan_type)) 								as loan_type, 
+		substring(loan_purpose,position(':' in loan_purpose)+2, length(loan_purpose)) 						as loan_purpose, 
+		substring(region,position(':' in region)+2, length(region)) 										as region, 
+		to_date(time_period, 'YYYY-MM') 																	as time_period, 
+		substring(unit_of_multiplier,position(':' in unit_of_multiplier)+2, length(unit_of_multiplier)) 	as unit_of_multiplier,
+		obs_value, 
+		obs_value
+		
+FROM 	public.personal_loans_raw
+WHERE	loan_type in ('DV8340: Margin loans','DV8270: Fixed term loans')
+AND 	loan_purpose in ('DV5070: Travel and holidays','DV8344: Purchase of road vehicles','DV4371: Personal investment (excluding housing)')
+AND		adjustment_type = '10: Original';
+
+UPDATE 	public.personal_loans
+SET		act_value = obs_value * 1000000
+WHERE	unit_of_multiplier = 'Millions';
+
+UPDATE 	public.personal_loans
+SET		qtr_date = to_date(EXTRACT(YEAR FROM time_period ) || '-' || EXTRACT(QUARTER FROM time_period )*3 || '-01', 'YYYY-MM-DD') ;
+
+-- ===============================================================================================================
+-- Housing loan rates
+SELECT 	series_id, type_1, type_2, type_4
+FROM 	public.data_series
+	
+WHERE	title_type = 'H'
+AND		type_2 in ('Investment','Owner-occupied')
+AND		type_4 in ('Interest-only','Principal-and-interest')
+AND	 	series_id in ('FLRHIFI','FLRHIFP','FLRHOOI','FLRHOOP','FLRHIOI','FLRHIOP','FLRHOFI','FLRHOFP')
+
+ORDER	BY 2,3,4
+
+-- ===============================================================================================================
+-- Personal loan rates
+SELECT 	series_id, type_1, type_2, type_3
+FROM 	public.data_series
+	
+WHERE	title_type = 'P'
+AND		type_2 in ('Finance leases','Fixed-term loans','Margin lending')
+AND		type_3  = 'Total'
+AND	 	series_id in ('FLRPFNFLT','FLRPFNFTT','FLRPFNMLT','FLRPFOFLT','FLRPFOFTT','FLRPFOMLT')
+
+ORDER	BY 2,3,4
+
+-- ===============================================================================================================
+-- popultae interest rate table
+TRUNCATE TABLE public.au_interest_rates;
+
+INSERT INTO public.au_interest_rates(
+	intr_date, series_id, rate)
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRPFNFLT' as series_id, FLRPFNFLT as rate 
+FROM 	public.au_personal_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRPFNFTT' as series_id, FLRPFNFTT as rate 
+FROM 	public.au_personal_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRPFNMLT' as series_id, FLRPFNMLT as rate 
+FROM 	public.au_personal_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		 'FLRPFOFLT' as series_id, FLRPFOFLT as rate 
+FROM 	public.au_personal_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRPFOFTT' as series_id, FLRPFOFTT as rate 
+FROM 	public.au_personal_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRPFOMLT' as series_id, FLRPFOMLT as rate 
+FROM 	public.au_personal_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+-- ------------------------------------------------------------
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRHIFI' as series_id, FLRHIFI as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRHIFP' as series_id, FLRHIFP as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRHOOI' as series_id, FLRHOOI as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		 'FLRHOOP' as series_id, FLRHOOP as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRHIOI' as series_id, FLRHIOI as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRHIOP' as series_id, FLRHIOP as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRHOFI' as series_id, FLRHOFI as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12)
+
+UNION
+
+SELECT 	to_date(EXTRACT(YEAR FROM intr_date ) || '-' || EXTRACT(QUARTER FROM intr_date )*3 || '-01', 'YYYY-MM-DD') intr_date,
+		'FLRHOFP' as series_id, FLRHOFP as rate 
+FROM 	public.au_housing_intr_raw
+WHERE	EXTRACT(MONTH FROM intr_date ) in (3,6,9,12);
+
+-- ===============================================================================================================
+
+
+
+-- ===============================================================================================================
+
+
+
+-- ===============================================================================================================

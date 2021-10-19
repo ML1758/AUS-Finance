@@ -1,0 +1,361 @@
+﻿"MEASURE","Residential Dwellings","ASGS_2011","REGION","FREQUENCY","Frequency","TIME","Time","Value","Flag Codes","Flags"
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2019-Q3","Sep-2019",6951369.8,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2019-Q4","Dec-2019",7170832.2,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2020-Q1","Mar-2020",7278072.7,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2020-Q2","Jun-2020",7251093.3,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2020-Q3","Sep-2020",7487531.1,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2020-Q4","Dec-2020",7886460.5,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2021-Q1","Mar-2021",8328147.7,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","0","Australia","Q","Quarterly","2021-Q2","Jun-2021",8924572.4,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2019-Q3","Sep-2019",6633358.6,,
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2019-Q4","Dec-2019",6847451.4,,
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2020-Q1","Mar-2020",6949644.6,,
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2020-Q2","Jun-2020",6922424,,
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2020-Q3","Sep-2020",7149079.1,,
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2020-Q4","Dec-2020",7529498.4,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2021-Q1","Mar-2021",7957762.2,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","0","Australia","Q","Quarterly","2021-Q2","Jun-2021",8527630.6,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2019-Q3","Sep-2019",318011.3,,
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2019-Q4","Dec-2019",323380.9,,
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2020-Q1","Mar-2020",328428.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2020-Q2","Jun-2020",328669.3,,
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2020-Q3","Sep-2020",338452,,
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2020-Q4","Dec-2020",356962.2,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2021-Q1","Mar-2021",370385.5,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","0","Australia","Q","Quarterly","2021-Q2","Jun-2021",396941.9,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2019-Q3","Sep-2019",10393.9,,
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2019-Q4","Dec-2019",10441.4,,
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2020-Q1","Mar-2020",10476.6,,
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2020-Q2","Jun-2020",10518.3,,
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2020-Q3","Sep-2020",10557.8,,
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2020-Q4","Dec-2020",10599.6,"r","revised"
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2021-Q1","Mar-2021",10635.1,"r","revised"
+"4","Number of residential dwellings ('000)","0","Australia","Q","Quarterly","2021-Q2","Jun-2021",10679.5,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2019-Q3","Sep-2019",668.8,,
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2019-Q4","Dec-2019",686.8,,
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2020-Q1","Mar-2020",694.7,,
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2020-Q2","Jun-2020",689.4,,
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2020-Q3","Sep-2020",709.2,,
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2020-Q4","Dec-2020",744,"r","revised"
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2021-Q1","Mar-2021",783.1,"r","revised"
+"5","Mean price of residential dwelling ($'000)","0","Australia","Q","Quarterly","2021-Q2","Jun-2021",835.7,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2019-Q3","Sep-2019",2782079.5,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2019-Q4","Dec-2019",2859691.7,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2020-Q1","Mar-2020",2907962.4,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2020-Q2","Jun-2020",2894145.4,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2020-Q3","Sep-2020",2996744.8,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2020-Q4","Dec-2020",3147434.2,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2021-Q1","Mar-2021",3330922.6,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","1","New South Wales","Q","Quarterly","2021-Q2","Jun-2021",3612166.1,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2019-Q3","Sep-2019",2645184.7,,
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2019-Q4","Dec-2019",2721441,,
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2020-Q1","Mar-2020",2766544.7,,
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2020-Q2","Jun-2020",2753285.9,,
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2020-Q3","Sep-2020",2851877.9,,
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2020-Q4","Dec-2020",2995002.4,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2021-Q1","Mar-2021",3172895.1,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","1","New South Wales","Q","Quarterly","2021-Q2","Jun-2021",3440795.6,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2019-Q3","Sep-2019",136894.8,,
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2019-Q4","Dec-2019",138250.8,,
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2020-Q1","Mar-2020",141417.7,,
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2020-Q2","Jun-2020",140859.5,,
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2020-Q3","Sep-2020",144866.9,,
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2020-Q4","Dec-2020",152431.8,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2021-Q1","Mar-2021",158027.6,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","1","New South Wales","Q","Quarterly","2021-Q2","Jun-2021",171370.5,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2019-Q3","Sep-2019",3220.6,,
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2019-Q4","Dec-2019",3236.1,,
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2020-Q1","Mar-2020",3246.3,,
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2020-Q2","Jun-2020",3259.3,,
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2020-Q3","Sep-2020",3271.6,,
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2020-Q4","Dec-2020",3282.3,"r","revised"
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2021-Q1","Mar-2021",3293.6,"r","revised"
+"4","Number of residential dwellings ('000)","1","New South Wales","Q","Quarterly","2021-Q2","Jun-2021",3304.4,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2019-Q3","Sep-2019",863.8,,
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2019-Q4","Dec-2019",883.7,,
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2020-Q1","Mar-2020",895.8,,
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2020-Q2","Jun-2020",888,,
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2020-Q3","Sep-2020",916,,
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2020-Q4","Dec-2020",958.9,"r","revised"
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2021-Q1","Mar-2021",1011.3,"r","revised"
+"5","Mean price of residential dwelling ($'000)","1","New South Wales","Q","Quarterly","2021-Q2","Jun-2021",1093.1,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2019-Q3","Sep-2019",1924978.2,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2019-Q4","Dec-2019",2027540.3,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2020-Q1","Mar-2020",2068710.1,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2020-Q2","Jun-2020",2045097.6,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2020-Q3","Sep-2020",2089802.4,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2020-Q4","Dec-2020",2210735.3,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2021-Q1","Mar-2021",2329237.9,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","2","Victoria","Q","Quarterly","2021-Q2","Jun-2021",2484375.3,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2019-Q3","Sep-2019",1869370.4,,
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2019-Q4","Dec-2019",1968554.6,,
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2020-Q1","Mar-2020",2008574.3,,
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2020-Q2","Jun-2020",1985268.6,,
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2020-Q3","Sep-2020",2028903.3,,
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2020-Q4","Dec-2020",2146190.5,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2021-Q1","Mar-2021",2262166.7,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","2","Victoria","Q","Quarterly","2021-Q2","Jun-2021",2412836.8,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2019-Q3","Sep-2019",55607.8,,
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2019-Q4","Dec-2019",58985.7,,
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2020-Q1","Mar-2020",60135.8,,
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2020-Q2","Jun-2020",59829,,
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2020-Q3","Sep-2020",60899.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2020-Q4","Dec-2020",64544.8,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2021-Q1","Mar-2021",67071.2,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","2","Victoria","Q","Quarterly","2021-Q2","Jun-2021",71538.4,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2019-Q3","Sep-2019",2690.4,,
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2019-Q4","Dec-2019",2706.7,,
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2020-Q1","Mar-2020",2717.6,,
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2020-Q2","Jun-2020",2732,,
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2020-Q3","Sep-2020",2745.1,,
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2020-Q4","Dec-2020",2761,"r","revised"
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2021-Q1","Mar-2021",2772.5,"r","revised"
+"4","Number of residential dwellings ('000)","2","Victoria","Q","Quarterly","2021-Q2","Jun-2021",2786.7,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2019-Q3","Sep-2019",715.5,,
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2019-Q4","Dec-2019",749.1,,
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2020-Q1","Mar-2020",761.2,,
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2020-Q2","Jun-2020",748.6,,
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2020-Q3","Sep-2020",761.3,,
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2020-Q4","Dec-2020",800.7,"r","revised"
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2021-Q1","Mar-2021",840.1,"r","revised"
+"5","Mean price of residential dwelling ($'000)","2","Victoria","Q","Quarterly","2021-Q2","Jun-2021",891.5,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2019-Q3","Sep-2019",1070870.9,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2019-Q4","Dec-2019",1088553.8,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2020-Q1","Mar-2020",1101255,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2020-Q2","Jun-2020",1105413.1,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2020-Q3","Sep-2020",1147870.8,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2020-Q4","Dec-2020",1200620.3,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2021-Q1","Mar-2021",1270954.1,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","3","Queensland","Q","Quarterly","2021-Q2","Jun-2021",1348181.7,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2019-Q3","Sep-2019",1020668.2,,
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2019-Q4","Dec-2019",1037545.3,,
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2020-Q1","Mar-2020",1049595.8,,
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2020-Q2","Jun-2020",1053594.1,,
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2020-Q3","Sep-2020",1094121.9,,
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2020-Q4","Dec-2020",1144363.2,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2021-Q1","Mar-2021",1211724.8,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","3","Queensland","Q","Quarterly","2021-Q2","Jun-2021",1285353.4,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2019-Q3","Sep-2019",50202.7,,
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2019-Q4","Dec-2019",51008.4,,
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2020-Q1","Mar-2020",51659.2,,
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2020-Q2","Jun-2020",51818.9,,
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2020-Q3","Sep-2020",53748.9,,
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2020-Q4","Dec-2020",56257.1,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2021-Q1","Mar-2021",59229.3,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","3","Queensland","Q","Quarterly","2021-Q2","Jun-2021",62828.3,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2019-Q3","Sep-2019",2083.1,,
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2019-Q4","Dec-2019",2091,,
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2020-Q1","Mar-2020",2098,,
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2020-Q2","Jun-2020",2106.3,,
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2020-Q3","Sep-2020",2113.4,,
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2020-Q4","Dec-2020",2120.7,"r","revised"
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2021-Q1","Mar-2021",2127.2,"r","revised"
+"4","Number of residential dwellings ('000)","3","Queensland","Q","Quarterly","2021-Q2","Jun-2021",2136.4,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2019-Q3","Sep-2019",514.1,,
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2019-Q4","Dec-2019",520.6,,
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2020-Q1","Mar-2020",524.9,,
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2020-Q2","Jun-2020",524.8,,
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2020-Q3","Sep-2020",543.1,,
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2020-Q4","Dec-2020",566.1,"r","revised"
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2021-Q1","Mar-2021",597.5,"r","revised"
+"5","Mean price of residential dwelling ($'000)","3","Queensland","Q","Quarterly","2021-Q2","Jun-2021",631,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2019-Q3","Sep-2019",356048.2,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2019-Q4","Dec-2019",370899.7,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2020-Q1","Mar-2020",367584.6,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2020-Q2","Jun-2020",370034.1,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2020-Q3","Sep-2020",383238.5,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2020-Q4","Dec-2020",401069.5,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2021-Q1","Mar-2021",415172.6,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","4","South Australia","Q","Quarterly","2021-Q2","Jun-2021",438457.9,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2019-Q3","Sep-2019",333666.6,,
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2019-Q4","Dec-2019",347601.2,,
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2020-Q1","Mar-2020",344736.8,,
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2020-Q2","Jun-2020",347017.4,,
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2020-Q3","Sep-2020",359016.4,,
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2020-Q4","Dec-2020",376038.5,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2021-Q1","Mar-2021",389654.7,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","4","South Australia","Q","Quarterly","2021-Q2","Jun-2021",411508.8,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2019-Q3","Sep-2019",22381.6,,
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2019-Q4","Dec-2019",23298.5,,
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2020-Q1","Mar-2020",22847.8,,
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2020-Q2","Jun-2020",23016.7,,
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2020-Q3","Sep-2020",24222.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2020-Q4","Dec-2020",25031,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2021-Q1","Mar-2021",25517.9,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","4","South Australia","Q","Quarterly","2021-Q2","Jun-2021",26949.1,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2019-Q3","Sep-2019",786.3,,
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2019-Q4","Dec-2019",788.1,,
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2020-Q1","Mar-2020",789.9,,
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2020-Q2","Jun-2020",791.7,,
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2020-Q3","Sep-2020",794,,
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2020-Q4","Dec-2020",796.2,"r","revised"
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2021-Q1","Mar-2021",798.3,"r","revised"
+"4","Number of residential dwellings ('000)","4","South Australia","Q","Quarterly","2021-Q2","Jun-2021",800.3,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2019-Q3","Sep-2019",452.8,,
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2019-Q4","Dec-2019",470.6,,
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2020-Q1","Mar-2020",465.3,,
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2020-Q2","Jun-2020",467.4,,
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2020-Q3","Sep-2020",482.7,,
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2020-Q4","Dec-2020",503.8,"r","revised"
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2021-Q1","Mar-2021",520.1,"r","revised"
+"5","Mean price of residential dwelling ($'000)","4","South Australia","Q","Quarterly","2021-Q2","Jun-2021",547.9,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2019-Q3","Sep-2019",557212.5,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2019-Q4","Dec-2019",554097.2,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2020-Q1","Mar-2020",557886.5,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2020-Q2","Jun-2020",556963.2,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2020-Q3","Sep-2020",586349,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2020-Q4","Dec-2020",621583.7,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2021-Q1","Mar-2021",657002.6,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","5","Western Australia","Q","Quarterly","2021-Q2","Jun-2021",692438,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2019-Q3","Sep-2019",528124.5,,
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2019-Q4","Dec-2019",525996.3,,
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2020-Q1","Mar-2020",529575.8,,
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2020-Q2","Jun-2020",528848.9,,
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2020-Q3","Sep-2020",556394,,
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2020-Q4","Dec-2020",589947.4,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2021-Q1","Mar-2021",623751.2,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","5","Western Australia","Q","Quarterly","2021-Q2","Jun-2021",657393.2,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2019-Q3","Sep-2019",29088,,
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2019-Q4","Dec-2019",28100.9,,
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2020-Q1","Mar-2020",28310.7,,
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2020-Q2","Jun-2020",28114.3,,
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2020-Q3","Sep-2020",29955.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2020-Q4","Dec-2020",31636.3,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2021-Q1","Mar-2021",33251.4,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","5","Western Australia","Q","Quarterly","2021-Q2","Jun-2021",35044.8,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2019-Q3","Sep-2019",1106.1,,
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2019-Q4","Dec-2019",1109.8,,
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2020-Q1","Mar-2020",1112.9,,
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2020-Q2","Jun-2020",1115.8,,
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2020-Q3","Sep-2020",1118.7,,
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2020-Q4","Dec-2020",1121.4,"r","revised"
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2021-Q1","Mar-2021",1124,"r","revised"
+"4","Number of residential dwellings ('000)","5","Western Australia","Q","Quarterly","2021-Q2","Jun-2021",1130.3,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2019-Q3","Sep-2019",503.8,,
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2019-Q4","Dec-2019",499.3,,
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2020-Q1","Mar-2020",501.3,,
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2020-Q2","Jun-2020",499.1,,
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2020-Q3","Sep-2020",524.1,,
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2020-Q4","Dec-2020",554.3,"r","revised"
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2021-Q1","Mar-2021",584.5,"r","revised"
+"5","Mean price of residential dwelling ($'000)","5","Western Australia","Q","Quarterly","2021-Q2","Jun-2021",612.6,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2019-Q3","Sep-2019",104474.2,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2019-Q4","Dec-2019",109782.3,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2020-Q1","Mar-2020",113968.1,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2020-Q2","Jun-2020",114349.1,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2020-Q3","Sep-2020",115008.9,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2020-Q4","Dec-2020",125185.8,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2021-Q1","Mar-2021",135784.5,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","6","Tasmania","Q","Quarterly","2021-Q2","Jun-2021",144589.6,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2019-Q3","Sep-2019",98120.4,,
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2019-Q4","Dec-2019",103045.2,,
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2020-Q1","Mar-2020",106974.4,,
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2020-Q2","Jun-2020",107377.6,,
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2020-Q3","Sep-2020",108071.7,,
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2020-Q4","Dec-2020",117670.8,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2021-Q1","Mar-2021",127686.4,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","6","Tasmania","Q","Quarterly","2021-Q2","Jun-2021",135966.3,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2019-Q3","Sep-2019",6353.8,,
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2019-Q4","Dec-2019",6737.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2020-Q1","Mar-2020",6993.7,,
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2020-Q2","Jun-2020",6971.5,,
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2020-Q3","Sep-2020",6937.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2020-Q4","Dec-2020",7515,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2021-Q1","Mar-2021",8098.1,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","6","Tasmania","Q","Quarterly","2021-Q2","Jun-2021",8623.3,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2019-Q3","Sep-2019",246.6,,
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2019-Q4","Dec-2019",247.2,,
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2020-Q1","Mar-2020",247.7,,
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2020-Q2","Jun-2020",248.4,,
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2020-Q3","Sep-2020",249.1,,
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2020-Q4","Dec-2020",249.9,,
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2021-Q1","Mar-2021",250.4,,
+"4","Number of residential dwellings ('000)","6","Tasmania","Q","Quarterly","2021-Q2","Jun-2021",250.9,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2019-Q3","Sep-2019",423.7,,
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2019-Q4","Dec-2019",444.1,,
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2020-Q1","Mar-2020",460.1,,
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2020-Q2","Jun-2020",460.3,,
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2020-Q3","Sep-2020",461.7,,
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2020-Q4","Dec-2020",501,"r","revised"
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2021-Q1","Mar-2021",542.2,"r","revised"
+"5","Mean price of residential dwelling ($'000)","6","Tasmania","Q","Quarterly","2021-Q2","Jun-2021",576.2,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2019-Q3","Sep-2019",37552.6,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2019-Q4","Dec-2019",35261.8,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2020-Q1","Mar-2020",35645.1,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2020-Q2","Jun-2020",36629.4,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2020-Q3","Sep-2020",36124.2,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2020-Q4","Dec-2020",39517.1,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2021-Q1","Mar-2021",38461.5,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","7","Northern Territory","Q","Quarterly","2021-Q2","Jun-2021",40424.8,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2019-Q3","Sep-2019",28926.3,,
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2019-Q4","Dec-2019",27596.4,,
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2020-Q1","Mar-2020",27911.1,,
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2020-Q2","Jun-2020",28190.2,,
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2020-Q3","Sep-2020",28204.7,,
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2020-Q4","Dec-2020",30471.2,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2021-Q1","Mar-2021",30432.9,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","7","Northern Territory","Q","Quarterly","2021-Q2","Jun-2021",31986.3,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2019-Q3","Sep-2019",8626.3,,
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2019-Q4","Dec-2019",7665.4,,
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2020-Q1","Mar-2020",7734,,
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2020-Q2","Jun-2020",8439.2,,
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2020-Q3","Sep-2020",7919.6,,
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2020-Q4","Dec-2020",9045.8,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2021-Q1","Mar-2021",8028.7,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","7","Northern Territory","Q","Quarterly","2021-Q2","Jun-2021",8438.5,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2019-Q3","Sep-2019",85.5,,
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2019-Q4","Dec-2019",85.6,,
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2020-Q1","Mar-2020",85.7,,
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2020-Q2","Jun-2020",85.8,,
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2020-Q3","Sep-2020",86,,
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2020-Q4","Dec-2020",86.2,,
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2021-Q1","Mar-2021",86.2,"r","revised"
+"4","Number of residential dwellings ('000)","7","Northern Territory","Q","Quarterly","2021-Q2","Jun-2021",86.7,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2019-Q3","Sep-2019",439.3,,
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2019-Q4","Dec-2019",411.9,,
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2020-Q1","Mar-2020",415.9,,
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2020-Q2","Jun-2020",426.8,,
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2020-Q3","Sep-2020",420.2,,
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2020-Q4","Dec-2020",458.7,,
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2021-Q1","Mar-2021",446,"r","revised"
+"5","Mean price of residential dwelling ($'000)","7","Northern Territory","Q","Quarterly","2021-Q2","Jun-2021",466.3,"p","preliminary figure or series subject to revision"
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2019-Q3","Sep-2019",118153.9,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2019-Q4","Dec-2019",125005.4,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q1","Mar-2020",125060.8,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q2","Jun-2020",128461.4,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q3","Sep-2020",132392.5,,
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q4","Dec-2020",140314.6,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2021-Q1","Mar-2021",150611.7,"r","revised"
+"1","Value of dwelling stock: Owned by all sectors ($m)","8","Australian Capital Territory","Q","Quarterly","2021-Q2","Jun-2021",163939.2,"p","preliminary figure or series subject to revision"
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2019-Q3","Sep-2019",109297.5,,
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2019-Q4","Dec-2019",115671.4,,
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q1","Mar-2020",115731.7,,
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q2","Jun-2020",118841.3,,
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q3","Sep-2020",122489.2,,
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q4","Dec-2020",129814.4,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2021-Q1","Mar-2021",139450.3,"r","revised"
+"2","Value of dwelling stock: Owned by households ($m)","8","Australian Capital Territory","Q","Quarterly","2021-Q2","Jun-2021",151790.1,"p","preliminary figure or series subject to revision"
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2019-Q3","Sep-2019",8856.4,,
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2019-Q4","Dec-2019",9334.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q1","Mar-2020",9329.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q2","Jun-2020",9620.1,,
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q3","Sep-2020",9903.3,,
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2020-Q4","Dec-2020",10500.2,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2021-Q1","Mar-2021",11161.4,"r","revised"
+"3","Value of dwelling stock: Owned by non households ($m)","8","Australian Capital Territory","Q","Quarterly","2021-Q2","Jun-2021",12149.1,"p","preliminary figure or series subject to revision"
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2019-Q3","Sep-2019",175.4,,
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2019-Q4","Dec-2019",176.8,,
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2020-Q1","Mar-2020",178.4,,
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2020-Q2","Jun-2020",178.9,,
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2020-Q3","Sep-2020",179.8,,
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2020-Q4","Dec-2020",182,,
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2021-Q1","Mar-2021",182.8,"r","revised"
+"4","Number of residential dwellings ('000)","8","Australian Capital Territory","Q","Quarterly","2021-Q2","Jun-2021",183.8,"p","preliminary figure or series subject to revision"
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2019-Q3","Sep-2019",673.7,,
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2019-Q4","Dec-2019",707,,
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2020-Q1","Mar-2020",701.1,,
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2020-Q2","Jun-2020",717.9,,
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2020-Q3","Sep-2020",736.2,,
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2020-Q4","Dec-2020",771.1,"r","revised"
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2021-Q1","Mar-2021",824.1,"r","revised"
+"5","Mean price of residential dwelling ($'000)","8","Australian Capital Territory","Q","Quarterly","2021-Q2","Jun-2021",891.7,"p","preliminary figure or series subject to revision"

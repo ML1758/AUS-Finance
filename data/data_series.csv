@@ -1,0 +1,256 @@
+Series ID,Title
+FLRHOOTL,Outstanding; Owner-occupied; All loans; Large institutions
+FLRHOOTA,Outstanding; Owner-occupied; All loans; All institutions
+FLRHOOVL,Outstanding; Owner-occupied; Variable-rate; Large institutions
+FLRHOOVA,Outstanding; Owner-occupied; Variable-rate; All institutions
+FLRHOOFA,"Outstanding; Owner-occupied; Fixed-rate, by residual fixed term; Less than or equal to 3 years"
+FLRHOOFB,"Outstanding; Owner-occupied; Fixed-rate, by residual fixed term; Greater than 3 years"
+FLRHOOI,Outstanding; Owner-occupied; By repayment type; Interest-only
+FLRHOOP,Outstanding; Owner-occupied; By repayment type; Principal-and-interest
+FLRHOFTL,New loans funded in the month; Owner-occupied; All loans; Large institutions
+FLRHOFTA,New loans funded in the month; Owner-occupied; All loans; All institutions
+FLRHOFVL,New loans funded in the month; Owner-occupied; Variable-rate; Large institutions
+FLRHOFVA,New loans funded in the month; Owner-occupied; Variable-rate; All institutions
+FLRHOFFA,"New loans funded in the month; Owner-occupied; Fixed-rate, by residual fixed term; Less than or equal to 3 years"
+FLRHOFFB,"New loans funded in the month; Owner-occupied; Fixed-rate, by residual fixed term; Greater than 3 years"
+FLRHOFI,New loans funded in the month; Owner-occupied; By repayment type; Interest-only
+FLRHOFP,New loans funded in the month; Owner-occupied; By repayment type; Principal-and-interest
+FLRHOLA,New loans funded in the month; Owner-occupied; By loan-to-valuation ratio at commitment; Less than 81%
+FLRHOLB,New loans funded in the month; Owner-occupied; By loan-to-valuation ratio at commitment; Greater than or equal to 81%
+FLRHOVA,"New loans funded in the month; Owner-occupied; By value at commitment; Less than or equal to $600,000"
+FLRHOVB,"New loans funded in the month; Owner-occupied; By value at commitment; $600,000 - $1,000,000"
+FLRHOVC,"New loans funded in the month; Owner-occupied; By value at commitment; Greater than $1,000,000"
+FLRHIOTL,Outstanding; Investment; All loans; Large institutions
+FLRHIOTA,Outstanding; Investment; All loans; All institutions
+FLRHIOVL,Outstanding; Investment; Variable-rate; Large institutions
+FLRHIOVA,Outstanding; Investment; Variable-rate; All institutions
+FLRHIOFA,"Outstanding; Investment; Fixed-rate, by residual fixed term; Less than or equal to 3 years"
+FLRHIOFB,"Outstanding; Investment; Fixed-rate, by residual fixed term; Greater than 3 years"
+FLRHIOI,Outstanding; Investment; By repayment type; Interest-only
+FLRHIOP,Outstanding; Investment; By repayment type; Principal-and-interest
+FLRHIFTL,New loans funded in the month; Investment; All loans; Large institutions
+FLRHIFTA,New loans funded in the month; Investment; All loans; All institutions
+FLRHIFVL,New loans funded in the month; Investment; Variable-rate; Large institutions
+FLRHIFVA,New loans funded in the month; Investment; Variable-rate; All institutions
+FLRHIFFA,"New loans funded in the month; Investment; Fixed, by residual fixed term; Less than or equal to 3 years"
+FLRHIFFB,"New loans funded in the month; Investment; Fixed, by residual fixed term; Greater than 3 years"
+FLRHIFI,New loans funded in the month; Investment; By repayment type; Interest-only
+FLRHIFP,New loans funded in the month; Investment; By repayment type; Principal-and-interest
+FLRHILA,New loans funded in the month; Investment; By loan-to-valuation ratio at commitment; Less than 81%
+FLRHILB,New loans funded in the month; Investment; By loan-to-valuation ratio at commitment; Greater than or equal to 81%
+FLRHIVA,"New loans funded in the month; Investment; By value at commitment; Less than or equal to $600,000"
+FLRHIVB,"New loans funded in the month; Investment; By value at commitment; $600,000 - $1,000,000"
+FLRHIVC,"New loans funded in the month; Investment; By value at commitment; Greater than $1,000,000"
+FLRPFOCIT,Outstanding; Credit card balances incurring interest; Total
+FLRPFOFLT,Outstanding; Finance leases; Total
+FLRPFOMLT,Outstanding; Margin lending; Total
+FLRPFOFTT,Outstanding; Fixed-term loans; Total
+FLRPFOFTR,"Outstanding; Fixed-term loans; of which, Residentially secured"
+FLRPFOFTF,Outstanding; Fixed-term loans; Fixed-rate
+FLRPFOFTV,Outstanding; Fixed-term loans; Variable-rate
+FLRPFOORT,Outstanding; Other revolving credit; Total
+FLRPFOORR,"Outstanding; Other revolving credit; of which, Residentially secured"
+FLRPFOORF,Outstanding; Other revolving credit; Fixed-rate
+FLRPFOORV,Outstanding; Other revolving credit; Variable-rate
+FLRPFNFLT,New loans funded in the month; Finance leases; Total
+FLRPFNMLT,New loans funded in the month; Margin lending; Total
+FLRPFNFTT,New loans funded in the month; Fixed-term loans; Total
+FLRPFNFTR,"New loans funded in the month; Fixed-term loans; of which, Residentially secured"
+FLRPFNFTF,New loans funded in the month; Fixed-term loans; Fixed-rate
+FLRPFNFTV,New loans funded in the month; Fixed-term loans; Variable-rate
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

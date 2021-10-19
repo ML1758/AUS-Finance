@@ -1,0 +1,22 @@
+# Loan & Interest Rates in Australia
+
+## Project Description
+•	Housing & Personal loans in comparison to interest rates
+
+## Machine Learning
+•	Link between the value of loans and interest rates
+•	Linear Regression
+
+## Data Sources
+•   	Australian Bureau of Statics
+•	Reserve Bank of Australia
+
+## Tools 
+•	Python
+•	Java Script
+•	PostgreSQL
+
+## Visualisations 
+•	For what purpose the home loans were taken on Australian map
+•	For what purpose the personal loans were taken on Australian map
+•	Interest rates vs loan values by state
